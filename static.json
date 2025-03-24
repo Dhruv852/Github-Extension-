@@ -1,0 +1,13 @@
+
+{
+  "root": ".",
+  "clean_urls": true,
+  "routes": {
+    "/**": "index.html"
+  },
+  "headers": {
+    "/**": {
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    }
+  }
+}
